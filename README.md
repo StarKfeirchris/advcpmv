@@ -20,7 +20,7 @@ wget http://ftp.gnu.org/gnu/coreutils/coreutils-8.25.tar.xz
 tar xvJf coreutils-8.25.tar.xz
 cd coreutils-8.25/
 wget https://raw.githubusercontent.com/timofonic-linux/advcpmv/master/advcpmv-0.7-8.25.patch
-patch -p1 -i advcpmv-0.5-8.25.patch
+patch -p1 -i advcpmv-0.7-8.25.patch
 ./configure
 make
 sudo mv ./src/cp /usr/local/bin/cpg
