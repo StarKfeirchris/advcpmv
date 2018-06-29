@@ -26,3 +26,5 @@ make
 sudo mv ./src/cp /usr/local/bin/cpg
 sudo mv ./src/mv /usr/local/bin/mvg
 ```
+
+Fork to 2018.06.30
